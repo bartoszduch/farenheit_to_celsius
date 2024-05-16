@@ -17,13 +17,8 @@
     <h2>Getting Started</h2>
     <p>To get started with the configurations in this repository, follow these steps:</p>
     <ol>
-        <li>Clone the repository: <code>git clone https://github.com/your-repo-name.git</code></li>
         <li>Navigate to the appropriate directory for the configurations you need.</li>
         <li>Follow the specific instructions in the respective directories to deploy and configure the services.</li>
     </ol>
-    <h2>Contributing</h2>
-    <p>Contributions are welcome! Please open an issue or submit a pull request for any changes.</p>
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for more details.</p>
 </body>
 </html>
