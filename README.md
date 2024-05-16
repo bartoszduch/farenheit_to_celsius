@@ -14,11 +14,5 @@
         <li>TensorFlow AI setup</li>
         <li>Locust configuration</li>
     </ul>
-    <h2>Getting Started</h2>
-    <p>To get started with the configurations in this repository, follow these steps:</p>
-    <ol>
-        <li>Navigate to the appropriate directory for the configurations you need.</li>
-        <li>Follow the specific instructions in the respective directories to deploy and configure the services.</li>
-    </ol>
 </body>
 </html>
