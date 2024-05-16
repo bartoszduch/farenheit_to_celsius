@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: bartoszduch/f_to_c_model_serving
+  repository: bartoszduch/f2c-serving
   pullPolicy: IfNotPresent
   tag: "latest"
 

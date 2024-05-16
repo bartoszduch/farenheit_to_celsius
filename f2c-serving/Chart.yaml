@@ -1,5 +1,5 @@
 apiVersion: v2
-name: f_to_c_model_serving
+name: f2c-model
 description: A Helm chart for Kubernetes
 
 # A chart can be either an 'application' or a 'library' chart.
