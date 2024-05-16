@@ -1,0 +1,43 @@
+replicaCount: 1
+
+image:
+  repository: bartoszduch/locust-tests
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: NodePort
+  port: 8089
+  nodePort: 30001
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+locust:
+  host: http://f2c-serving.default.svc.cluster.local:8501
+  runTime: 5m
+
+serviceAccount:
+  create: true
+
+ingress:
+  enabled: true
+  annotations: {}
+  hosts:
+    - host: chart-example.local
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls: []
+
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 80
